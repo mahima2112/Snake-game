@@ -81,7 +81,7 @@ var drawModule = (function () {
 
   var createFood = function() {
       food = {
-        x: Math.floor((Math.random() * 30) + 1),
+        x: Math.floor((Math.random() * 30) + 1),  // return a random number between 0 and 1
         y: Math.floor((Math.random() * 30) + 1)
       }
 
